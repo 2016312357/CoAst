@@ -1,0 +1,8 @@
+make param_contri_partition_softmax-9 config=src/configs/config_to_analyze/method1/r1/cifar10-TinyResNet-blur.yml
+make param_contri_partition_softmax-9 config=src/configs/config_to_analyze/method1/r1/cifar10-TinyResNet-count.yml
+make param_contri_partition_softmax-9 config=src/configs/config_to_analyze/method1/r1/cifar10-TinyResNet-mask.yml
+make param_contri_partition_softmax-9 config=src/configs/config_to_analyze/method1/r1/cifar10-TinyResNet-noise.yml
+make param_contri_partition_softmax-9 config=src/configs/config_to_analyze/method1/r1/cifar100-TinyResNet-blur.yml
+make param_contri_partition_softmax-9 config=src/configs/config_to_analyze/method1/r1/cifar100-TinyResNet-count.yml
+make param_contri_partition_softmax-9 config=src/configs/config_to_analyze/method1/r1/cifar100-TinyResNet-mask.yml
+make param_contri_partition_softmax-9 config=src/configs/config_to_analyze/method1/r1/cifar100-TinyResNet-noise.yml
