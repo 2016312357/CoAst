@@ -1,0 +1,17 @@
+dataset: stl10
+model_name: bigresnet
+epochs: 200
+num_client: 5
+client_epochs: 10
+lr: 0.01
+seed: 114514
+mode: blur
+score_mode: spearman
+batch_size: 1024
+param_clip_ratio: 0.2
+step_size: 0.01
+shapley_switch: none
+num_classes: 10
+checkpoint: /home/hao/data/CoAst_data/cs-cloud/data/param_clip_models/0811ec75-b66a-4073-aaf7-eda9e3ff089e
+task_type: method3-r2
+size: [128, 128]

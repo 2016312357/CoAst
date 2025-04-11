@@ -1,0 +1,17 @@
+dataset: stl10
+model_name: bigresnet
+epochs: 200
+num_client: 5
+client_epochs: 10
+lr: 0.01
+seed: 114514
+mode: mask
+score_mode: spearman
+batch_size: 1024
+param_clip_ratio: 0.1
+step_size: 0.01
+shapley_switch: none
+num_classes: 10
+checkpoint: data/param_clip_models/8ecf12ff-dd3c-44e6-bcbc-0a88cfe129a3
+task_type: method1-r1
+size: [128, 128]

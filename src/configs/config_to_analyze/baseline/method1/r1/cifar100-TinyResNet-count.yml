@@ -1,0 +1,17 @@
+dataset: cifar100
+model_name: tiny-resnet
+epochs: 200
+num_client: 5
+client_epochs: 10
+lr: 0.01
+seed: 7517
+mode: count
+score_mode: spearman
+batch_size: 1024
+param_clip_ratio: 0.1
+step_size: 0.1
+shapley_switch: none
+num_classes: 100
+checkpoint: data/param_clip_models/31b648ec-3e0a-401c-8ade-38fdb97b9feb
+task_type: method1-r1
+size: [32, 32]
