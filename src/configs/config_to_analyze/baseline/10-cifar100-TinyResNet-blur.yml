@@ -1,16 +1,16 @@
-dataset: cifar10
+dataset: cifar100
 model_name: tiny-resnet
 epochs: 100
-num_client: 5
+num_client: 10
 client_epochs: 10
-lr: 0.01
+lr: 0.005
 seed: 7517
 mode: blur
 score_mode: spearman
 batch_size: 1024
 param_clip_ratio: 0.1
 step_size: 0.01
-num_classes: 10
-checkpoint: data/baseline_models/064f40f5-ab1f-4c7f-a72b-433964c4e7eb
+num_classes: 100
+checkpoint: data/baseline_models/d9002dfb-be4f-42c0-b7cd-df414667543c
 task_type: baseline
 size: [32, 32]

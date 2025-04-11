@@ -1,0 +1,16 @@
+dataset: cifar100
+model_name: convnet
+epochs: 50
+num_client: 5
+client_epochs: 10
+lr: 0.01
+seed: 7517
+mode: noise
+score_mode: spearman
+batch_size: 512
+param_clip_ratio: 0.1
+step_size: 0.01
+num_classes: 100
+checkpoint: data/baseline_models/a94b73a9-2e46-4255-9d49-f9c6cdf871f9
+task_type: baseline
+size: [32, 32]

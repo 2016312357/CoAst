@@ -5,12 +5,12 @@ num_client: 5
 client_epochs: 10
 lr: 0.01
 seed: 7517
-mode: blur
+mode: count
 score_mode: spearman
 batch_size: 1024
 param_clip_ratio: 0.1
 step_size: 0.01
 num_classes: 10
-checkpoint: data/baseline_models/064f40f5-ab1f-4c7f-a72b-433964c4e7eb
+checkpoint: data/baseline_models/678b472a-fad5-4e80-b27a-3737c6d9d646
 task_type: baseline
 size: [32, 32]
