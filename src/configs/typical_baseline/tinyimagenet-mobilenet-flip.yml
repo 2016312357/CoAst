@@ -1,0 +1,12 @@
+dataset: tiny-imagenet
+model_name: mobilenetv3
+epochs: 50
+num_client: 5
+client_epochs: 2
+lr: 0.0005
+seed: 114514
+mode: flip
+score_mode: spearman
+batch_size: 1024
+param_clip_ratio: 0.1
+step_size: 0.01
