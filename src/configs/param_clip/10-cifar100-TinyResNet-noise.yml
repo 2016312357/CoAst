@@ -5,7 +5,7 @@ num_client: 10
 client_epochs: 5
 lr: 0.01
 seed: 7517
-mode: clean
+mode: noise
 score_mode: spearman
 batch_size: 1024
 param_clip_ratio: 0.1
